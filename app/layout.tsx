@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Lobster_Two } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-inter",
+});
+const lobsterTwo = Lobster_Two({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-lobster-two",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`bg-yellow-light ${inter.variable} ${lobsterTwo.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
