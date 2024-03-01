@@ -1,8 +1,24 @@
+"use client";
+
 import Image from "next/image";
+import { usePathname } from "next/navigation";
+
+import { cn } from "@/lib/utils";
 
 export const Footer = () => {
+  const pathname = usePathname();
+
+  console.log(pathname);
+
   return (
-    <footer className="w-full bg-white py-5 flex items-center justify-between -mt-3 relative z-10 shadow-footer">
+    <footer
+      className={cn(
+        "w-full bg-white py-5 flex items-center justify-between -mt-3 relative z-10 shadow-footer",
+        {
+          "mt-0": pathname !== "/",
+        }
+      )}
+    >
       <div className="w-1/3 h-24 relative">
         <Image
           src="/images/footer-left-line.svg"
@@ -49,14 +65,14 @@ export const Footer = () => {
         </ul>
 
         <div className="text-center">
-          <span className="text-lg text-green-primary font-medium">
+          <span className="inter-font text-lg text-green-primary font-medium">
             2024 | Desenvolvido por{" "}
           </span>
           <a
             href="https://www.mkdevsolutions.com/"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-lg text-green-primary font-medium hover:underline"
+            className="inter-font text-lg text-green-primary font-medium hover:underline"
           >
             MKDev
           </a>

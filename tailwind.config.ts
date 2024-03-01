@@ -34,6 +34,14 @@ const config = {
           "url('/images/about-page-top-right-bubble.svg')",
         "about-page-bottom-right-bubble":
           "url('/images/about-page-bottom-right-bubble.svg')",
+        "services-page-top-left-bubble":
+          "url('/images/services-page-top-left-bubble.svg')",
+        "services-page-top-right-bubble":
+          "url('/images/services-page-top-right-bubble.svg')",
+        "services-page-bottom-left-bubble":
+          "url('/images/services-page-bottom-left-bubble.svg')",
+        "services-page-bottom-right-bubble":
+          "url('/images/services-page-bottom-right-bubble.svg')",
       },
       colors: {
         "green-primary": "#224F34",

@@ -12,13 +12,13 @@ export const AboutContent = () => {
           <div className="w-full px-6 flex flex-col items-center gap-y-12 mx-auto sm:px-16 lg:container lg:mx-auto">
             <div className="w-full flex flex-col lg:flex-row justify-center">
               <div className="w-3/4 bg-green-primary py-12 px-9 rounded-[60px] flex flex-col gap-y-4 relative z-10 shadow-lg lg:max-w-none lg:w-1/2 lg:h-fit">
-                <p className="text-base text-yellow-light sm:text-lg">
+                <p className="inter-font text-base text-yellow-light sm:text-lg">
                   Olá! Meu nome é Eliane, sou a criadora da Feito com Feltro, um
                   hobbie que hoje se tornou uma paixão e o trabalho que tanto
                   amo.
                 </p>
 
-                <p className="text-base text-yellow-light sm:text-lg">
+                <p className="inter-font text-base text-yellow-light sm:text-lg">
                   Desde pequena amava artesanato, graças a minha mãe que me
                   ensinou e incentivou nessa área. Fazer uma lembrança especial
                   que marcava uma data, um boneco do meu personagem favorito e
@@ -40,7 +40,7 @@ export const AboutContent = () => {
 
             <div className="w-full flex flex-col lg:flex-row-reverse lg:items-center lg:justify-center">
               <div className="w-3/4 bg-green-primary py-12 px-9 rounded-[60px] flex flex-col gap-y-4 self-end shadow-lg max-w-md lg:max-w-none lg:w-1/2 lg:-ml-20">
-                <p className="text-base text-yellow-light sm:text-lg lg:ml-20">
+                <p className="inter-font text-base text-yellow-light sm:text-lg lg:ml-20">
                   Com o passar do tempo, o que era apenas um passatempo, se
                   tornou uma missão levar até as pessoas, através da minha arte,
                   mais do que uma recordação para os momentos especiais, mas
@@ -48,7 +48,7 @@ export const AboutContent = () => {
                   em cada uma das minhas confecções.
                 </p>
 
-                <p className="text-base text-yellow-light sm:text-lg lg:ml-20">
+                <p className="inter-font text-base text-yellow-light sm:text-lg lg:ml-20">
                   Entre em contato comigo, me siga nas redes sociais e descubra
                   mais desse mundo Feito com Feltro!
                 </p>
