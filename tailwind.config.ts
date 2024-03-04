@@ -42,11 +42,14 @@ const config = {
           "url('/images/services-page-bottom-left-bubble.svg')",
         "services-page-bottom-right-bubble":
           "url('/images/services-page-bottom-right-bubble.svg')",
+        "admin-form-left-bubble": "url('/images/admin-form-left-bubble.svg')",
+        "admin-form-right-bubble": "url('/images/admin-form-right-bubble.svg')",
       },
       colors: {
         "green-primary": "#224F34",
         "green-secondary": "#C9E1C2",
         "red-light": "#FEDFDB",
+        "red-error": "#F83F3F",
         "yellow-light": "#F8F1DE",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

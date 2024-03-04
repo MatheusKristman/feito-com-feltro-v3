@@ -16,7 +16,7 @@ export const ServicesCard = ({ title, desc }: ServicesCardProps) => {
         {desc}
       </p>
 
-      <Button variant="outline" className="text-lg font-medium">
+      <Button variant="outline" className="inter-font text-lg font-medium">
         Saiba mais
       </Button>
     </div>

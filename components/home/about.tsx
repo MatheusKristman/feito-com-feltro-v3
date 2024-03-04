@@ -19,7 +19,7 @@ export const About = () => {
               Do Coração para Suas Mãos
             </h2>
 
-            <p className="text-base text-yellow-light text-center sm:text-lg">
+            <p className="inter-font text-base text-yellow-light text-center sm:text-lg">
               Bem-vindo ao atelier de Feito com Feltro, onde a criatividade
               floresce e os sonhos se tornam realidade. Especializada na
               confecção artesanal de bonecos, guirlandas e lembrancinhas, cada

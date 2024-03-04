@@ -12,7 +12,10 @@ import {
 
 export const Services = () => {
   return (
-    <section className="w-full relative after:content-[''] after:bg-services-right-bubble after:bg-contain after:bg-no-repeat after:bg-right after:w-96 after:h-[500px] after:absolute after:top-0 after:right-0">
+    <section
+      id="servicesSection"
+      className="w-full relative after:content-[''] after:bg-services-right-bubble after:bg-contain after:bg-no-repeat after:bg-right after:w-96 after:h-[500px] after:absolute after:top-0 after:right-0"
+    >
       <div className="w-full relative z-10 flex flex-col gap-y-9 pt-6 sm:pt-12">
         <h2 className="lobster-two-font text-5xl text-green-primary text-center w-full px-6">
           Mais sobre meu trabalho
